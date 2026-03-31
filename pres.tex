@@ -1,0 +1,95 @@
+\documentclass[12pt]{beamer}
+
+\usepackage[T2A]{fontenc}        
+\usepackage[utf8]{inputenc}  
+\usepackage[russian]{babel}
+
+\usepackage{multirow} 
+\usepackage{graphicx}
+
+\usepackage{amsmath}
+\usepackage{amssymb} 
+
+\usepackage{hyperref}
+\title{Презентация}
+\date{\today}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\section{Формулы}
+\begin{frame}{Пределы}
+\begin{equation}
+\int \sqrt{a^2-x^2} \, dx = \frac{x}{2}\sqrt{a^2-x^2}+ \frac{a^2}{2}\arcsin \frac{x}{a} +C
+\end{equation}
+\begin{equation}
+\lim_{n \to \infty} \frac{ x\tan^{2n}\frac{\pi x}{4}}{\tan^{2n}\frac{\pi x}{4} + 1}
+\end{equation}
+\end{frame}
+
+\begin{frame}{Интегралы}
+\begin{equation}
+\iint\limits_{\Omega} f(\sqrt{x^2+y^2}) \,dx\,dy , \quad где \Omega =\{|y| \le |x| ; |x| \le 1\}
+\end{equation}
+
+\begin{equation}
+\int\limits_{e}^{+\infty} \dfrac{1}{x^p \left(\ln x\right)^q \left(\ln\ln x\right)^r} \,dx
+\end{equation}
+\end{frame}
+
+\begin{frame}{Ряды}
+\begin{equation}
+f(x)=\sum\limits_{n=1}^{\infty} \dfrac{x}{(1+x^2)^n}
+\end{equation}
+
+\begin{equation}
+\sum\limits_{n=1}^{\infty} \left(-1\right)^{n-1} \frac{2^n \sin^{2n} x}{2}
+\end{equation}
+\end{frame}
+
+\section{Таблица}
+\begin{frame}{Таблица}
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\multicolumn{3}{|c|}{Заголовок} \\
+\hline
+\multirow{2}{*}{A} & B & C \\
+\cline{2-3}
+& D & E \\
+\hline
+F & G & H \\
+\hline
+\end{tabular}
+\end{table}
+\end{frame}
+
+\section{Списки}
+
+\begin{frame}{Маркированный список}
+\begin{itemize}
+\item Пределы
+\item Интегралы
+\item Ряды
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Нумерованный список}
+\begin{enumerate}
+\item Пределы
+\item Интегралы
+\item Ряды
+\end{enumerate}
+\end{frame}
+
+\section{Литература}
+\begin{frame}{Список литературы}
+\begin{thebibliography}{99}
+\bibitem{art1} \href{https://kvm.gubkin.ru/pub/uok/Demidovich.pdf}{Демидович Б.\,П. Сборник задач и упражнений по математическому анализу.}
+\bibitem{art2} А.\,П. Комбаров, Ю.\,В. Садовничий. Аналитическая геометрия. 
+\end{thebibliography}
+\end{frame}
+\end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.17)  26 MAR 2026 14:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.17)  31 MAR 2026 16:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -818,7 +818,7 @@ has been already used, duplicate ignored
                    \relax 
 l.313 \begin{equation}
                        [4]
-<./ris/pr1.pdf, id=189, 361.35pt x 216.81pt>
+<./ris/pr1.pdf, id=193, 361.35pt x 216.81pt>
 File: ./ris/pr1.pdf Graphic file (type pdf)
 <use ./ris/pr1.pdf>
 Package pdftex.def Info: ./ris/pr1.pdf  used on input line 323.
@@ -834,10 +834,10 @@ Package rerunfilecheck Info: File `t.out' has not changed.
 (rerunfilecheck)             Checksum: 57B7BBBAEF584BAF76A33AF4A6B8A602;4010.
  ) 
 Here is how much of TeX's memory you used:
- 13169 strings out of 467867
- 203616 string characters out of 5418818
- 633204 words of memory out of 5000000
- 41821 multiletter control sequences out of 15000+600000
+ 13175 strings out of 467867
+ 203661 string characters out of 5418818
+ 633282 words of memory out of 5000000
+ 41824 multiletter control sequences out of 15000+600000
  636764 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,540b,482s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -859,9 +859,9 @@ sers/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pf
 b><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 msy7.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/symbols/msbm10.pfb>
-Output written on t.pdf (7 pages, 267588 bytes).
+Output written on t.pdf (7 pages, 269115 bytes).
 PDF statistics:
- 525 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 500000)
+ 534 PDF objects out of 1000 (max. 8388607)
+ 75 named destinations out of 1000 (max. 500000)
  174 words of extra memory for PDF output out of 10000 (max. 10000000)
 
